@@ -1,0 +1,10 @@
+:root{
+    --primary-background: #F8F9FA;
+    --secondary-background: #E9ECEF;
+    --surface: #DEE2E6;
+    --on-surface: #CED4DA;
+    --focused: #ADB5BD;
+    --primary-text: #212529;
+    --secondary-text: #343A40;
+    --soft-dark: #495057;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfolio</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="stylesheet" href="./styles/main-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <button class="navigation-bar-button-active" onclick="controlNavBar(0)">Sobre mim</button>
+            <button onclick="controlNavBar(1)">Educação</button>
+            <button onclick="controlNavBar(2)">Projetos</button>
+            <button onclick="controlNavBar(3)">Contato</button>
+        </nav>
+    </header>
+    <main>
+        <section class="about displayOff">
+            <div class="header-about">
+                <div class="about-me">
+                    <img src="./assets/prof.jpg" />
+                    <h3> João Pedro de Souza Rodrigues</h3>
+                    <small>Desenvolvedor Mobile & Kotlin</small>
+                </div>
+                <div class="skills">
+                    <h2>Habilidades</h2>
+                    <div class="skills-cards">
+                        <div>
+                            <h4>Principais</h4>
+                            <div class="badges-container">
+                                <img src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Secundárias</h4>
+                            <div class="badges-container">
+                                <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="">
+                                <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="">
+                                <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <h4>Soft skills</h4>
+                            <div class="soft-skills-badges-container">
+                                <span class="soft-skill-badge">Comunicação</span>
+                                <span class="soft-skill-badge">Proatividade</span>
+                                <span class="soft-skill-badge">Colaboração</span>
+                                <span class="soft-skill-badge">Liderança</span>
+                                <span class="soft-skill-badge">Flexibilidade Técnica</span>
+                                <span class="soft-skill-badge">Criatividade</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="body-text-about">
+                <h2>Sobre mim</h2>
+                <div class="text-cards-about-container">
+                    <p>
+                        Sou uma pessoa muito comunicativa e gosto muito de criar e idealizar coisas, por isso sou muito engajado em eventos e hackatons na minha cidade que envolvam inovação e tecnologia.
+                        <br>
+                        <br>
+                        Um dos meus hobbies é justamente programar, não por gostar em si de programar, mas porque sempre tenho algo novo para descobrir enquanto estudo, e isso me permite criar ferramentas e soluções nos eventos que participo.
+                    </p>
+                    <p>
+                        Sou muito fã de obras de ficção e fantasia, seja livros, séries, filmes, jogos, estou sempre consumindo este tipo de conteúdo, pois adoro conhecer novos mundos e explorar eles de maneiras e lugares diferentes
+                        <br>
+                        <br>
+                        Minha parte favorita das coisas que faço é com certeza realizar e conquistar coisas em equipe, adoro ter uma turma unida e participar de tudo que nos é proposto, justamente por isso vou bastante em hackatons.
+
+                    </p>
+                    <img src="./assets/undraw_join_re_w1lh.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="education displayOff">
+            <div class="left-side-education">
+                <h2>Educação</h2>
+                <div class="college-logo-container"><img src="./assets/uninter-logo.png" alt=""></div>
+                <div>
+                    <h3>Engenharia de Software</h3>
+                    <small>3º Período/Semestre</small>
+                </div>
+                <div class="college-description">
+                    <p>Estou atualmente cursando Engenharia de Software na Uninter, onde pude até o momento conhecer o lado mais profundo da computação e venho aprimorando meus conhecimentos técnicos de base da computação, pois, embora consiga trabalhar todo dia com programação e desenvolver projetos, existem conhecimentos técnicos que só consigo obter de forma clara através de um curso superior.</p>
+                    <img src="./assets/undraw_developer_activity_re_39tg.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="right-side-education">
+                <h2>Idiomas</h2>
+                <div class="language-card-list">
+                    <div class="language-card">
+                        <img src="./assets/brazil-flag-image.jpg" alt="">
+                        <p>
+                            <span>Português Brasileiro</span>
+                            <br>
+                            <br>
+                            Idioma Nativo, possuo uma excelente comunicação em local de trabalho.
+                        </p>
+                    </div>
+                    <div class="language-card">
+                        <img src="./assets/usa-flag-image.png" alt="">
+                        <p>
+                            <span>Inglês</span>
+                            <br>
+                            <br>
+                            Possuo como pontos fortes minha capacidade de compreensão em leitura e audição, principalmente em assuntos mais técnicos, onde já estou familiarizado com termos específicos. Posso tranquilamente ler mensagens, artigos, documentações e todo o resto com uma boa facilidade. Quanto à fala e escrita, consigo expressar bem o que preciso dizer de forma objetiva.
+                        </p>
+                    </div>
+                </div>
+                <img src="./assets/undraw_conversation_re_c26v.svg"alt="">
+            </div>
+        </section>
+        <section class="projects displayOn">
+            <h2>Projetos</h2>
+            <div class="projects-list">
+                <div class="project">
+                    <div class="project-text">
+                        <h2>
+                            Imersão Doity
+                            <br>
+                            <small>App whitelabel para eventos</small>
+                        </h2>
+                        <p>App para eventos que desenvolvi na empresa a qual atuo, ele tem muitas funcionalidades úteis para organizadores de eventos, como feed de postagens, captura de leads, credenciamento do evento, mapa do evento, programação, palestrantes, etc. Foi publicado nas duas lojas: Google Play e App Store</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assets/imersao-doity-logo.jpg" alt="">
+                        <div>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.doity.imersaodoity2024"><button class="project-link-button">Link da Google Play</button></a>
+                            <br>
+                            <a target="_blank" href="https://apps.apple.com/br/app/imersão-doity-2024/id6480003632"><button class="project-link-button">Link da App Store</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2>
+                            Onerep
+                            <br>
+                            <small>API com Kotlin</small>
+                        </h2>
+                        <p>API de autenticação JWT desenvolvida em Kotlin utilizando o framwork Ktor, deploy feito na plataforma Render.com utilizando Docker e também a plataforma Supabase com banco de dados PostgreSql para persistência</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assets/ONEREP.svg" alt="">
+                        <div>
+                            <a target="_blank" href="https://github.com/jotap-dev/onerep"><button class="project-link-button">Repositório</button></a>
+                            <br>
+                            <a target="_blank" href="https://onerep.onrender.com/"><button class="project-link-button">Link de acesso</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2>
+                            FINANCEI
+                            <br>
+                            <small>App Nativo Android de finanças</small>
+                        </h2>
+                        <p>App desenvolvido em Kotlin para Android de forma nativa, utilizando conhecimentos complexos de persistência local de dados, listas dinâmicas, programação orientada a objetos e comunicação com API's</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assets/Financei-logo.svg" alt="">
+                        <div>
+                            <a target="_blank" href="https://github.com/jotap-dev/Financei"><button class="project-link-button">Repositório</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2>
+                            Vivamente
+                            <br>
+                            <small>App para cuidadores de idosos com alzheimer</small>
+                        </h2>
+                        <p>Primeiro protótipo de um app Android nativo desenvolvido para realização de uma atividade extensionista em meu curso superior, onde ampliei conceitos complexos de system design e utilizei ferramentas modernas para construção do app</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./assets/Vivamente-logo.svg" alt="">
+                        <div>
+                            <a target="_blank" href="https://github.com/jotap-dev/VivaMente"><button class="project-link-button">Repositório</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact displayOff">
+            <div class="contact-text-container">
+                <h2>Fale comigo!</h2>    
+                <small>informe seus dados e insira uma mensagem que deseja enviar para mim para que eu possa entrar em contato com você!</small>
+                <p>Podemos contruir produtos incríveis e criar um ambiente colaborativo para realização de um trabalho com excelência!</p>
+                <p><u>joaopedro.stack@gmail.com</u></p>
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/in/eujotta"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=""></a>
+                    <a target="_blank" href="https://github.com/jotap-dev"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt=""></a>
+                </div>
+                <div class="contact-img-container">
+                    <img src="./assets/contact_us.svg" alt="">
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <h2>Faça contato direto</h2>
+                <form action="">
+                    <div class="input-container">
+                        <label for="nameField">Nome</label>
+                        <input type="text" id="nameField">
+                    </div>
+                    <div class="input-container">
+                        <label for="emailField">Email</label>
+                        <input type="email" id="emailField">
+                    </div>
+                    <div class="input-container">
+                        <label for="textField">Mensagem</label>
+                        <textarea id="textField"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
